@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url("../../images/bg.jpg");
+    background-size: cover;
+    min-height: 500px;
+    background-position: 100% 50%;
+}
