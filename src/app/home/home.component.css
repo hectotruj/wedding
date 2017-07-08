@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 500px;
-    background-position: 100% 50%;
+    background-position: 25% 75%;
 }
 .jumbotron h1 {
     color: #FFFFFF;
@@ -17,4 +17,8 @@
 .navy-background {
     background-color:  #1D2951;
     color: #FFFFFF;
+}
+.story-title {
+  font-family: 'Dancing Script', cursive;
+  color: #FFD700;  
 }
