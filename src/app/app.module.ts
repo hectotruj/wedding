@@ -9,6 +9,7 @@ import { WeddingComponent } from './wedding/wedding.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StoryComponent } from './story/story.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const appRoutes: Routes = [
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     NavComponent,
     HomeComponent,
     WeddingComponent,
-    StoryComponent
+    StoryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
