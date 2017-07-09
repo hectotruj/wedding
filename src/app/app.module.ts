@@ -5,14 +5,27 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
+import { WeddingComponent } from './wedding/wedding.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { StoryComponent } from './story/story.component';
+
 
 const appRoutes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
-    data: { title: 'Heroes List' }
+    data: { title: 'Home' }
+  }, 
+  {
+    path: 'wedding',
+    component: WeddingComponent,
+    data: { title: 'Our Wedding' }
+  },
+  {
+    path: 'story',
+    component: StoryComponent,
+    data: { title: 'Our Story' }
   },
   {
     path: '',
@@ -26,7 +39,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    WeddingComponent,
+    StoryComponent
   ],
   imports: [
     BrowserModule,

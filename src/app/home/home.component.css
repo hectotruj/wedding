@@ -10,9 +10,12 @@
 .jumbotron h1 {
     color: #FFFFFF;
 }
-.wedding-date {
+.cursive {
     font-family: 'Dancing Script', cursive;
-    color: #1D2951;
+}
+.default-background {
+    background-color:  #FFFFFF;
+    color: #1D2951; 
 }
 .navy-background {
     background-color:  #1D2951;
