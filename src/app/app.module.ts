@@ -13,6 +13,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StoryComponent } from './story/story.component';
 import { FooterComponent } from './footer/footer.component';
 import { AuthGuard } from './auth.guard';
+import { RegistryComponent } from './registry/registry.component';
 
 
 const appRoutes: Routes = [
@@ -34,6 +35,13 @@ const appRoutes: Routes = [
     component: StoryComponent,
     data: { title: 'Our Story' }
   },
+  {
+    path: 'registry',
+    canActivate: [AuthGuard],
+    component: RegistryComponent,
+    data: { title: 'Our Registry' }
+  }
+  ,
   {
     path: 'login',
     component: LoginComponent,
@@ -59,7 +67,8 @@ const appRoutes: Routes = [
     WeddingComponent,
     StoryComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    RegistryComponent
   ],
   imports: [
     BrowserModule,
