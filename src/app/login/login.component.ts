@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
 
   login() {
     this.loading = true;
-    if (this.model.password == 'something'){  
+    if (this.model.password == 'Part3y!'){  
       localStorage.setItem('currentUser', 'true');
       this.router.navigate([this.returnUrl]);
     }
