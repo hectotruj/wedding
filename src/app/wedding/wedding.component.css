@@ -1,0 +1,27 @@
+.jumbotron {
+    background-image: url("/assets/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: 25% 75%;
+}
+.jumbotron h1 {
+    color: #FFFFFF;
+}
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+.default-background {
+    background-color:  #FFFFFF;
+    color: #1D2951; 
+}
+.navy-background {
+    background-color:  #1D2951;
+    color: #FFFFFF;
+}
+.story-title {
+  font-family: 'Dancing Script', cursive;
+  color: #FFD700;  
+}
